@@ -8,5 +8,6 @@ apt update
 apt install -y python3 screen curl wget vim sqlite3 rsync com.tigisoftware.appdatamanager com.tigisoftware.filza ws.hbang.newterm2
 apt install -y --allow-unauthenticated com.google.ios.ytadblock com.ps.ytautofullscreen jp.soh.reprovision
 python3 -m ensurepip --upgrade
+pip3 install requests
 
 killall SpringBoard
