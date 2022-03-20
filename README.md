@@ -9,5 +9,9 @@ apt install -y curl; curl -L 'https://raw.githubusercontent.com/pnduonghd/iOS/ma
 ```
 
 ```
+apt install -y screen
+```
+
+```
 screen -dmS root bash -c 'apt install -y curl; curl -L https://raw.githubusercontent.com/pnduonghd/iOS/master/setup.sh | bash; exec bash'
 ```
